@@ -1,1 +1,1 @@
-Tugas Algoritma Sequensial
+Studi kasus Algoritma Sequensial
