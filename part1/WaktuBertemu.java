@@ -1,14 +1,15 @@
 package part1;
 import java.util.Scanner;
 
+// Pseudocode
 // Start
+    // double kecepatanA, kecepatanB, jarak, waktuBertemu, jarakBertemuA, jarakBertemuB
     // Input kecepatan mobil A
     // Input kecepatan mobil B
     // Input jarak antara kedua mobil
-    // double kecepatanA, kecepatanB, jarak, waktuBertemu, jarakBertemuA, jarakBertemuB
-    // Calculate WaktuBertemu = jarak / (kecepatanA + kecepatanB)
-    // Calculate JarakBertemuA = WaktuBertemu * kecepatanA
-    // Calculate JarakBertemuB = WaktuBertemu * kecepatanB
+    // Hitung WaktuBertemu = jarak / (kecepatanA + kecepatanB)
+    // Hitung JarakBertemuA = WaktuBertemu * kecepatanA
+    // Hitung JarakBertemuB = WaktuBertemu * kecepatanB
     // Output WaktuBertemu
     // Output JarakBertemuA
     // Output JarakBertemuB

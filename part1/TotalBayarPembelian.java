@@ -1,17 +1,18 @@
 package part1;
 import java.util.Scanner;
 
+// Pseudocode
 // Start
+    // double jumlahBarangA, jumlahBarangB, hargaBarangA, hargaBarangB, diskonA, diskonB, totalBarangA, diskonBarangA, hargaAkhirA, totalBarangB, diskonBarangB, hargaAkhirB, totalBayar
     // Input jumlah barang A
     // Input jumlah barang B
-    // double jumlahBarangA, jumlahBarangB, hargaBarangA, hargaBarangB, diskonA, diskonB, totalBarangA, diskonBarangA, hargaAkhirA, totalBarangB, diskonBarangB, hargaAkhirB, totalBayar
-    // Calculate TotalBarangA = jumlahBarangA * 1000
-    // Calculate DiskonA = 0.10 * TotalBarangA
-    // Calculate HargaAkhirA = TotalBarangA - DiskonA
-    // Calculate TotalBarangB = jumlahBarangB * 2000
-    // Calculate DiskonB = 0.05 * TotalBarangB
-    // Calculate HargaAkhirB = TotalBarangB - DiskonB
-    // Calculate TotalBayar = HargaAkhirA + HargaAkhirB
+    // Hitung TotalBarangA = jumlahBarangA * 1000
+    // Hitung DiskonA = 0.10 * TotalBarangA
+    // Hitung HargaAkhirA = TotalBarangA - DiskonA
+    // Hitung TotalBarangB = jumlahBarangB * 2000
+    // Hitung DiskonB = 0.05 * TotalBarangB
+    // Hitung HargaAkhirB = TotalBarangB - DiskonB
+    // Hitung TotalBayar = HargaAkhirA + HargaAkhirB
     // Output TotalBayar
 // End
 

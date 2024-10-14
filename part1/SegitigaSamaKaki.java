@@ -3,12 +3,12 @@ import java.util.Scanner;
 
 // Pseudocode
 // Start
+    // double alas, tinggi, setengahAlas, sisiMiring, luas, keliling
     // Input alas
     // Input tinggi
-    // double alas, tinggi, setengahAlas, sisiMiring, luas, keliling
-    // Calculate sisiMiring = sqrt((alas / 2)^2 + tinggi^2)
-    // Calculate luas = (alas * tinggi) / 2
-    // Calculate keliling = alas + 2 * sisiMiring
+    // Hitung sisiMiring = sqrt((alas / 2)^2 + tinggi^2)
+    // Hitung luas = (alas * tinggi) / 2
+    // Hitung keliling = alas + 2 * sisiMiring
     // Output luas
     // Output keliling
 // End
