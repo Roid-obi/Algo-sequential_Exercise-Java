@@ -35,20 +35,18 @@ public class DurasiWaktuUjian {
         int durasiJam, durasiMenit, durasiDetik;
 
         // Input waktu mulai ujian
-        System.out.print("Masukkan jam mulai ujian (0-23): ");
-        jamMulai = input.nextInt();
-        System.out.print("Masukkan menit mulai ujian (0-59): ");
-        menitMulai = input.nextInt();
-        System.out.print("Masukkan detik mulai ujian (0-59): ");
-        detikMulai = input.nextInt();
+        System.out.print("Masukkan waktu mulai ujian (format Jam:Menit:Detik): ");
+        String[] waktuMulai = input.nextLine().split(":");
+        jamMulai = Integer.parseInt(waktuMulai[0]);
+        menitMulai = Integer.parseInt(waktuMulai[1]);
+        detikMulai = Integer.parseInt(waktuMulai[2]);
 
         // Input waktu akhir ujian
-        System.out.print("Masukkan jam akhir ujian (0-23): ");
-        jamAkhir = input.nextInt();
-        System.out.print("Masukkan menit akhir ujian (0-59): ");
-        menitAkhir = input.nextInt();
-        System.out.print("Masukkan detik akhir ujian (0-59): ");
-        detikAkhir = input.nextInt();
+        System.out.print("Masukkan waktu akhir ujian (format Jam:Menit:Detik): ");
+        String[] waktuAkhir = input.nextLine().split(":");
+        jamAkhir = Integer.parseInt(waktuAkhir[0]);
+        menitAkhir = Integer.parseInt(waktuAkhir[1]);
+        detikAkhir = Integer.parseInt(waktuAkhir[2]);
 
         // Menghitung durasi detik
         if (detikAkhir < detikMulai) {
